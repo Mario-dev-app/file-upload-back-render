@@ -10,7 +10,7 @@ const mailParams = {
     port: 587, // port for secure SMTP
     auth: {
         user: "mperaltaw@outlook.com",
-        pass: process.env.PASS_CORREO
+        pass: process.env.PASS_CORREO || "achmed45"
     },
     tls: {
         ciphers:'SSLv3'
